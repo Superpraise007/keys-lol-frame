@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/api/frame.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/frame(/(.*))?",
+      "dest": "src/api/frame.js"
+    }
+  ]
+}
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
